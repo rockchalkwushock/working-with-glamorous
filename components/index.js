@@ -1,3 +1,4 @@
+import AnimatedDiv from './Animated'
 import Container from './Container'
 
-export { Container }
+export { AnimatedDiv, Container }

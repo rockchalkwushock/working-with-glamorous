@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-837fxu,
+[data-css-837fxu] {
+  -webkit-animation: animation_1y5l68o 0.2s infinite ease-in-out alternate;
+  animation: animation_1y5l68o 0.2s infinite ease-in-out alternate;
+}
+
+<AnimatedDiv>
+  <div
+    className="css-837fxu"
+  />
+</AnimatedDiv>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-837fxu,
+[data-css-837fxu] {
+  -webkit-animation: animation_1y5l68o 0.2s infinite ease-in-out alternate;
+  animation: animation_1y5l68o 0.2s infinite ease-in-out alternate;
+}
+
+<div
+  class="css-837fxu"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-837fxu,
+[data-css-837fxu] {
+  -webkit-animation: animation_1y5l68o 0.2s infinite ease-in-out alternate;
+  animation: animation_1y5l68o 0.2s infinite ease-in-out alternate;
+}
+
+<div
+  className="css-837fxu"
+/>
+`;

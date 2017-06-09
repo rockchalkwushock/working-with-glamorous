@@ -9,7 +9,7 @@
     "build": "next build",
     "dev": "next",
     "lint": "eslint components lib pages --fix",
-    "precommit": "lint-staged && yarn test",
+    "precommit": "lint-staged && yarn test:cov",
     "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --no-semi --use-tabs",
     "start": "next start",
     "test": "jest --config jest.config.json --runInBand",
