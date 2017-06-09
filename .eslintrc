@@ -5,6 +5,7 @@
   },
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "react/no-danger": "off"
+    "react/no-danger": "off",
+    "react/jsx-wrap-multilines": "off"
   }
 }
