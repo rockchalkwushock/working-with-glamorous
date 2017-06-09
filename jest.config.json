@@ -1,6 +1,10 @@
 {
   "bail": true,
   "testEnvironment": "jsdom",
+  "setupTestFrameworkScriptFile": "./testSetup.js",
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
   "coveragePathIgnorePatterns": [
     "./.next/",
     "./coverage/"
