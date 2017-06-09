@@ -1,0 +1,7 @@
+{
+  "extends": ["equimper", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/no-danger": "off"
+  }
+}

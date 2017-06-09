@@ -1,0 +1,46 @@
+{
+  "name": "working-with-glamorous",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/rockchalkwushock/working-with-glamorous.git",
+  "author": "Cody Brunner <rockchalkwushock@icloud.com> (https://rcws-development.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "lint": "eslint components lib pages --fix",
+    "precommit": "lint-staged && yarn test",
+    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --no-semi --use-tabs",
+    "start": "next start",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn lint",
+      "yarn prettier",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "~1.3.4",
+    "babel-plugin-transform-object-rest-spread": "~6.23.0",
+    "glamor": "~2.20.25",
+    "glamorous": "~3.22.1",
+    "next": "~2.4.3",
+    "react": "~15.5.4",
+    "react-dom": "~15.5.4"
+  },
+  "devDependencies": {
+    "babel-plugin-glamorous-displayname": "~1.1.0",
+    "enzyme": "~2.8.2",
+    "eslint": "~3.19.0",
+    "eslint-config-equimper": "~2.0.5",
+    "eslint-config-prettier": "~2.1.1",
+    "husky": "~0.13.4",
+    "jest": "~20.0.4",
+    "jest-cli": "~20.0.4",
+    "lint-staged": "~3.6.0",
+    "prettier": "~1.4.4",
+    "react-test-renderer": "~15.5.4"
+  }
+}
