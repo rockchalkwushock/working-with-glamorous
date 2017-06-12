@@ -1,13 +1,7 @@
 import { Component } from 'react'
+import PropTypes from 'prop-types'
 
-import {
-  Input,
-  StyledButton,
-  StyledForm,
-  StyledInputHolder,
-  StyledSpan,
-  StyledWrapper
-} from './searchCommons'
+import { StyledWrapper } from './searchCommons'
 
 /**
  * TODO:
@@ -21,20 +15,12 @@ import {
  */
 
 class SearchBar extends Component {
-  state = {}
+  static propTypes = {
+    onClick: PropTypes.func,
+    view: PropTypes.bool
+  }
   render() {
-    return (
-      <StyledForm>
-        <StyledWrapper>
-          <StyledInputHolder>
-            <Input type="text" placeholder="Type text here" />
-            <StyledButton>
-              <StyledSpan />
-            </StyledButton>
-          </StyledInputHolder>
-        </StyledWrapper>
-      </StyledForm>
-    )
+    return <StyledWrapper onClick={this.props.onClick} open={this.props.view} />
   }
 }
 

@@ -1,611 +1,199 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-69fayz,
-[data-css-69fayz] {
-  display: block;
-  background-color: #123456;
-}
-
-.css-j9y2wz,
-[data-css-j9y2wz] {
+.css-q44vm6,
+[data-css-q44vm6] {
+  -webkit-transition: all 0.3s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
-  display: block;
-  position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-}
-
-.css-1suxvks,
-[data-css-1suxvks] {
-  -webkit-transition: all 0.3s ease-in-out;
-  overflow: hidden;
   height: 70px;
-  background: rgba(255, 255, 255, 0);
-  border-radius: 6px;
-  position: relative;
-  width: 70px;
-  transition: all 0.3s ease-in-out;
-}
-
-.css-9ryfgc,
-[data-css-9ryfgc] {
-  -webkit-transition-delay: 0.3s;
-  -moz-box-sizing: border-box;
-  -webkit-transform: translate(0, 60px);
-  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
   position: absolute;
-  top: 0px;
-  left: 0px;
-  background: transparent;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  height: 50px;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 20px;
-  color: #fff;
-  transform: translate(0, 60px);
-  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
-  transition-delay: 0.3s;
-  width: 100%;
-  padding: 0 70 0 20;
-  opacity: 0;
-  font-family: "Open Sans", Arial, Verdana;
-}
-
-.css-1h7ff29,
-[data-css-1h7ff29] {
-  -webkit-transition: all 0.3s ease-in-out;
   width: 70px;
-  border: none;
   border-radius: 6px;
-  background: #fff;
-  padding: 0px;
-  height: 70px;
-  position: relative;
-  z-index: 2;
-  float: right;
-  cursor: pointer;
+  background-color: rgba(255,255,255,0);
   transition: all 0.3s ease-in-out;
-  outline: none;
-}
-
-.css-1f5lnv0,
-[data-css-1f5lnv0] {
-  -webkit-transform: rotate(45deg);
-  -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-  width: 22px;
-  height: 22px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  transform: rotate(45deg);
-  transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-}
-
-.css-1f5lnv0::before,
-[data-css-1f5lnv0]::before {
-  width: 4px;
-  height: 11px;
-  left: 9px;
-  top: 18px;
-  border-radius: 2px;
-  background: #974BE0;
-}
-
-.css-1f5lnv0::after,
-[data-css-1f5lnv0]::after {
-  width: 14px;
-  height: 14px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
-  background: 4px solid #974BE0;
-}
-
-<StyledForm>
-  <form
-    className="css-69fayz"
-  >
-    <StyledWrapper>
-      <div
-        className="css-j9y2wz"
-      >
-        <StyledInputHolder>
-          <div
-            className="css-1suxvks"
-          >
-            <Input
-              placeholder="Input Text Here"
-              type="text"
-            >
-              <StyledInput
-                placeholder="Input Text Here"
-                type="text"
-              >
-                <input
-                  className="css-9ryfgc"
-                  placeholder="Input Text Here"
-                  type="text"
-                />
-              </StyledInput>
-            </Input>
-            <StyledButton>
-              <button
-                className="css-1h7ff29"
-              >
-                <StyledSpan>
-                  <span
-                    className="css-1f5lnv0"
-                  />
-                </StyledSpan>
-              </button>
-            </StyledButton>
-          </div>
-        </StyledInputHolder>
-      </div>
-    </StyledWrapper>
-  </form>
-</StyledForm>
-`;
-
-exports[`enzyme.mount 2`] = `
-.css-69fayz,
-[data-css-69fayz] {
   display: block;
-  background-color: #123456;
-}
-
-.css-j9y2wz,
-[data-css-j9y2wz] {
-  -webkit-transform: translate(-50%, -50%);
-  display: block;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-}
-
-.css-1suxvks,
-[data-css-1suxvks] {
-  -webkit-transition: all 0.3s ease-in-out;
   overflow: hidden;
-  height: 70px;
-  background: rgba(255, 255, 255, 0);
-  border-radius: 6px;
-  position: relative;
-  width: 70px;
-  transition: all 0.3s ease-in-out;
-}
-
-.css-9ryfgc,
-[data-css-9ryfgc] {
-  -webkit-transition-delay: 0.3s;
-  -moz-box-sizing: border-box;
-  -webkit-transform: translate(0, 60px);
-  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: transparent;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  height: 50px;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 20px;
-  color: #fff;
-  transform: translate(0, 60px);
-  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
-  transition-delay: 0.3s;
-  width: 100%;
-  padding: 0 70 0 20;
-  opacity: 0;
-  font-family: "Open Sans", Arial, Verdana;
-}
-
-.css-1h7ff29,
-[data-css-1h7ff29] {
-  -webkit-transition: all 0.3s ease-in-out;
-  width: 70px;
-  border: none;
-  border-radius: 6px;
-  background: #fff;
-  padding: 0px;
-  height: 70px;
-  position: relative;
-  z-index: 2;
-  float: right;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  outline: none;
-}
-
-.css-1f5lnv0,
-[data-css-1f5lnv0] {
-  -webkit-transform: rotate(45deg);
-  -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-  width: 22px;
-  height: 22px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  transform: rotate(45deg);
-  transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-}
-
-.css-1f5lnv0::before,
-[data-css-1f5lnv0]::before {
-  width: 4px;
-  height: 11px;
-  left: 9px;
-  top: 18px;
-  border-radius: 2px;
-  background: #974BE0;
-}
-
-.css-1f5lnv0::after,
-[data-css-1f5lnv0]::after {
-  width: 14px;
-  height: 14px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
-  background: 4px solid #974BE0;
 }
 
 <SearchBar>
-  <StyledForm>
-    <form
-      className="css-69fayz"
-    >
-      <StyledWrapper>
-        <div
-          className="css-j9y2wz"
-        >
-          <StyledInputHolder>
-            <div
-              className="css-1suxvks"
-            >
-              <Input
-                placeholder="Type text here"
-                type="text"
-              >
-                <StyledInput
-                  placeholder="Type text here"
-                  type="text"
-                >
-                  <input
-                    className="css-9ryfgc"
-                    placeholder="Type text here"
-                    type="text"
-                  />
-                </StyledInput>
-              </Input>
-              <StyledButton>
-                <button
-                  className="css-1h7ff29"
-                >
-                  <StyledSpan>
-                    <span
-                      className="css-1f5lnv0"
-                    />
-                  </StyledSpan>
-                </button>
-              </StyledButton>
-            </div>
-          </StyledInputHolder>
-        </div>
-      </StyledWrapper>
-    </form>
-  </StyledForm>
+  <StyledWrapper>
+    <div
+      className="css-q44vm6"
+    />
+  </StyledWrapper>
 </SearchBar>
 `;
 
-exports[`enzyme.render 1`] = `
-.css-69fayz,
-[data-css-69fayz] {
-  display: block;
-  background-color: #123456;
-}
-
-.css-j9y2wz,
-[data-css-j9y2wz] {
+exports[`enzyme.mount 2`] = `
+.css-q44vm6,
+[data-css-q44vm6] {
+  -webkit-transition: all 0.3s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
-  display: block;
-  position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-}
-
-.css-1suxvks,
-[data-css-1suxvks] {
-  -webkit-transition: all 0.3s ease-in-out;
-  overflow: hidden;
   height: 70px;
-  background: rgba(255, 255, 255, 0);
-  border-radius: 6px;
-  position: relative;
-  width: 70px;
-  transition: all 0.3s ease-in-out;
-}
-
-.css-9ryfgc,
-[data-css-9ryfgc] {
-  -webkit-transition-delay: 0.3s;
-  -moz-box-sizing: border-box;
-  -webkit-transform: translate(0, 60px);
-  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
   position: absolute;
-  top: 0px;
-  left: 0px;
-  background: transparent;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  height: 50px;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 20px;
-  color: #fff;
-  transform: translate(0, 60px);
-  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
-  transition-delay: 0.3s;
-  width: 100%;
-  padding: 0 70 0 20;
-  opacity: 0;
-  font-family: "Open Sans", Arial, Verdana;
-}
-
-.css-1h7ff29,
-[data-css-1h7ff29] {
-  -webkit-transition: all 0.3s ease-in-out;
   width: 70px;
-  border: none;
   border-radius: 6px;
-  background: #fff;
-  padding: 0px;
-  height: 70px;
-  position: relative;
-  z-index: 2;
-  float: right;
-  cursor: pointer;
+  background-color: rgba(255,255,255,0);
   transition: all 0.3s ease-in-out;
-  outline: none;
+  display: block;
+  overflow: hidden;
 }
 
-.css-1f5lnv0,
-[data-css-1f5lnv0] {
-  -webkit-transform: rotate(45deg);
-  -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-  width: 22px;
-  height: 22px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  transform: rotate(45deg);
-  transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-}
-
-.css-1f5lnv0::before,
-[data-css-1f5lnv0]::before {
-  width: 4px;
-  height: 11px;
-  left: 9px;
-  top: 18px;
-  border-radius: 2px;
-  background: #974BE0;
-}
-
-.css-1f5lnv0::after,
-[data-css-1f5lnv0]::after {
-  width: 14px;
-  height: 14px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
-  background: 4px solid #974BE0;
-}
-
-<form
-  class="css-69fayz"
+<StyledWrapper
+  open={false}
 >
   <div
-    class="css-j9y2wz"
-  >
-    <div
-      class="css-1suxvks"
-    >
-      <input
-        class="css-9ryfgc"
-        placeholder="Input Text Here"
-        type="text"
-      />
-      <button
-        class="css-1h7ff29"
-      >
-        <span
-          class="css-1f5lnv0"
-        />
-      </button>
-    </div>
-  </div>
-</form>
+    className="css-q44vm6"
+  />
+</StyledWrapper>
+`;
+
+exports[`enzyme.mount 3`] = `
+.css-1dafbxg,
+[data-css-1dafbxg] {
+  -webkit-transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 70px;
+  position: absolute;
+  width: 450px;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  display: block;
+  overflow: hidden;
+}
+
+<StyledWrapper
+  open={true}
+>
+  <div
+    className="css-1dafbxg"
+  />
+</StyledWrapper>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-q44vm6,
+[data-css-q44vm6] {
+  -webkit-transition: all 0.3s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 70px;
+  position: absolute;
+  width: 70px;
+  border-radius: 6px;
+  background-color: rgba(255,255,255,0);
+  transition: all 0.3s ease-in-out;
+  display: block;
+  overflow: hidden;
+}
+
+<div
+  class="css-q44vm6"
+/>
 `;
 
 exports[`enzyme.render 2`] = `
-.css-69fayz,
-[data-css-69fayz] {
-  display: block;
-  background-color: #123456;
-}
-
-.css-j9y2wz,
-[data-css-j9y2wz] {
+.css-q44vm6,
+[data-css-q44vm6] {
+  -webkit-transition: all 0.3s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
-  display: block;
-  position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-}
-
-.css-1suxvks,
-[data-css-1suxvks] {
-  -webkit-transition: all 0.3s ease-in-out;
-  overflow: hidden;
   height: 70px;
-  background: rgba(255, 255, 255, 0);
-  border-radius: 6px;
-  position: relative;
-  width: 70px;
-  transition: all 0.3s ease-in-out;
-}
-
-.css-9ryfgc,
-[data-css-9ryfgc] {
-  -webkit-transition-delay: 0.3s;
-  -moz-box-sizing: border-box;
-  -webkit-transform: translate(0, 60px);
-  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
   position: absolute;
-  top: 0px;
-  left: 0px;
-  background: transparent;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  height: 50px;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 20px;
-  color: #fff;
-  transform: translate(0, 60px);
-  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
-  transition-delay: 0.3s;
-  width: 100%;
-  padding: 0 70 0 20;
-  opacity: 0;
-  font-family: "Open Sans", Arial, Verdana;
-}
-
-.css-1h7ff29,
-[data-css-1h7ff29] {
-  -webkit-transition: all 0.3s ease-in-out;
   width: 70px;
-  border: none;
   border-radius: 6px;
-  background: #fff;
-  padding: 0px;
-  height: 70px;
-  position: relative;
-  z-index: 2;
-  float: right;
-  cursor: pointer;
+  background-color: rgba(255,255,255,0);
   transition: all 0.3s ease-in-out;
-  outline: none;
-}
-
-.css-1f5lnv0,
-[data-css-1f5lnv0] {
-  -webkit-transform: rotate(45deg);
-  -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-  width: 22px;
-  height: 22px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  transform: rotate(45deg);
-  transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
-}
-
-.css-1f5lnv0::before,
-[data-css-1f5lnv0]::before {
-  width: 4px;
-  height: 11px;
-  left: 9px;
-  top: 18px;
-  border-radius: 2px;
-  background: #974BE0;
-}
-
-.css-1f5lnv0::after,
-[data-css-1f5lnv0]::after {
-  width: 14px;
-  height: 14px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
-  background: 4px solid #974BE0;
-}
-
-<form
-  class="css-69fayz"
->
-  <div
-    class="css-j9y2wz"
-  >
-    <div
-      class="css-1suxvks"
-    >
-      <input
-        class="css-9ryfgc"
-        placeholder="Type text here"
-        type="text"
-      />
-      <button
-        class="css-1h7ff29"
-      >
-        <span
-          class="css-1f5lnv0"
-        />
-      </button>
-    </div>
-  </div>
-</form>
-`;
-
-exports[`enzyme.shallow 1`] = `
-.css-69fayz,
-[data-css-69fayz] {
   display: block;
-  background-color: #123456;
+  overflow: hidden;
 }
 
-<form
-  className="css-69fayz"
->
-  <StyledWrapper>
-    <StyledInputHolder>
-      <Input
-        placeholder="Input Text Here"
-        type="text"
-      />
-      <StyledButton>
-        <StyledSpan />
-      </StyledButton>
-    </StyledInputHolder>
-  </StyledWrapper>
-</form>
+<div
+  class="css-q44vm6"
+/>
 `;
+
+exports[`enzyme.render 3`] = `
+.css-1dafbxg,
+[data-css-1dafbxg] {
+  -webkit-transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 70px;
+  position: absolute;
+  width: 450px;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  display: block;
+  overflow: hidden;
+}
+
+<div
+  class="css-1dafbxg"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `<StyledWrapper />`;
 
 exports[`enzyme.shallow 2`] = `
-<StyledForm>
-  <StyledWrapper>
-    <StyledInputHolder>
-      <Input
-        placeholder="Type text here"
-        type="text"
-      />
-      <StyledButton>
-        <StyledSpan />
-      </StyledButton>
-    </StyledInputHolder>
-  </StyledWrapper>
-</StyledForm>
+.css-q44vm6,
+[data-css-q44vm6] {
+  -webkit-transition: all 0.3s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 70px;
+  position: absolute;
+  width: 70px;
+  border-radius: 6px;
+  background-color: rgba(255,255,255,0);
+  transition: all 0.3s ease-in-out;
+  display: block;
+  overflow: hidden;
+}
+
+<div
+  className="css-q44vm6"
+/>
+`;
+
+exports[`enzyme.shallow 3`] = `
+.css-1dafbxg,
+[data-css-1dafbxg] {
+  -webkit-transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 70px;
+  position: absolute;
+  width: 450px;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  display: block;
+  overflow: hidden;
+}
+
+<div
+  className="css-1dafbxg"
+/>
 `;
