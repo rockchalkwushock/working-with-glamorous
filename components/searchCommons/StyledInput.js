@@ -29,7 +29,7 @@ const StyledInput = glamorous.input(
 
 StyledInput.displayName = 'StyledInput'
 
-const Input = props => <StyledInput {...props} />
+const Input = props => <StyledInput {...props} {...props.input} />
 
 export { StyledInput }
 export default Input

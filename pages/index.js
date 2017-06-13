@@ -1,12 +1,36 @@
-import { page } from '../lib'
+import { Component } from 'react'
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
+
+import { getQuestions, page } from '../lib'
 import { SearchBar } from '../components'
 
-/**
- * NOTE:
- *
- * At the moment this setup works fine for passing props to the children.
- * As long as I check the value of state my _onClick will toggle the changing
- * view of my SearchBar.
- */
+class Home extends Component {
+  static propTypes = {
+    getQuestions: PropTypes.func.isRequired,
+    initialState: PropTypes.shape({
+      form: PropTypes.object,
+      questions: PropTypes.object
+    }).isRequired,
+    url: PropTypes.shape({
+      pathname: PropTypes.string.isRequired
+    }).isRequired
+  }
+  componentDidMount() {
+    console.log('CDM: index')
+  }
+  componentWillReceiveProps() {
+    console.log('CWRP: index')
+  }
+  componentWillUpdate() {
+    console.log('CWU: index')
+  }
+  componentDidUpdate() {
+    console.log('CDU: index')
+  }
+  render() {
+    return <SearchBar {...this.props} />
+  }
+}
 
-export default page(props => <SearchBar {...props} />)
+export default page(connect(null, { getQuestions })(Home))
