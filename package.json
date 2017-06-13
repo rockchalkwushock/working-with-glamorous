@@ -9,7 +9,7 @@
     "build": "next build",
     "dev": "next",
     "lint": "eslint components lib pages --fix",
-    "precommit": "lint-staged && yarn test:cov",
+    "precommit": "lint-staged && yarn test",
     "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --no-semi --use-tabs",
     "start": "next start",
     "test": "jest --config jest.config.json --runInBand",
@@ -24,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "axios": "~0.16.2",
     "babel-plugin-transform-decorators-legacy": "~1.3.4",
     "babel-plugin-transform-object-rest-spread": "~6.23.0",
     "glamor": "~2.20.25",
@@ -32,7 +33,11 @@
     "prop-types": "~15.5.10",
     "react": "~15.5.4",
     "react-dom": "~15.5.4",
-    "recompose": "~0.23.5"
+    "react-redux": "~5.0.5",
+    "recompose": "~0.23.5",
+    "redux": "~3.6.0",
+    "redux-form": "~6.8.0",
+    "redux-thunk": "~2.2.0"
   },
   "devDependencies": {
     "babel-plugin-glamorous-displayname": "~1.1.0",
@@ -47,6 +52,8 @@
     "jest-glamor-react": "~1.4.0",
     "lint-staged": "~3.6.1",
     "prettier": "~1.4.4",
-    "react-test-renderer": "~15.5.4"
+    "react-test-renderer": "~15.5.4",
+    "redux-devtools-extension": "~2.13.2",
+    "redux-mock-store": "~1.2.3"
   }
 }

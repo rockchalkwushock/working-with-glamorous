@@ -1,19 +1,24 @@
 import glamorous from 'glamorous'
 
-const StyledButton = glamorous.button({
-  width: '70px',
-  height: '70px',
-  border: 'none',
-  borderRadius: '6px',
-  background: '#fff',
-  padding: '0px',
-  outline: 'none',
-  position: 'relative',
-  zIndex: 2, // again must be integer NOT string!
-  float: 'right',
-  cursor: 'pointer',
-  transition: 'all 0.3s ease-in-out'
-})
+const StyledButton = glamorous.button(
+  {
+    border: 'none',
+    background: '#fff',
+    padding: '0px',
+    outline: 'none',
+    position: 'relative',
+    zIndex: 2, // again must be integer NOT string!
+    float: 'right',
+    cursor: 'pointer',
+    transition: 'all 0.3s ease-in-out'
+  },
+  ({ open }) => ({
+    width: open ? '50px' : '70px',
+    height: open ? '50px' : '70px',
+    margin: open ? '10px' : null,
+    borderRadius: open ? '30px' : '6px'
+  })
+)
 
 StyledButton.displayName = 'StyledButton'
 

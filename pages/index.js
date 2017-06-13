@@ -1,5 +1,4 @@
-import { Component } from 'react'
-import { withLayout } from '../lib'
+import { page } from '../lib'
 import { SearchBar } from '../components'
 
 /**
@@ -10,18 +9,4 @@ import { SearchBar } from '../components'
  * view of my SearchBar.
  */
 
-export class TestPage extends Component {
-  state = { view: false }
-  _onClick = () => {
-    if (this.state.view === true) {
-      this.setState({ view: false })
-    } else {
-      this.setState({ view: true })
-    }
-  }
-  render() {
-    return <SearchBar onClick={this._onClick} view={this.state.view} />
-  }
-}
-
-export default withLayout(TestPage)
+export default page(props => <SearchBar {...props} />)

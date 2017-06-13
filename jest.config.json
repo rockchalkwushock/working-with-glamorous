@@ -7,8 +7,7 @@
   ],
   "coveragePathIgnorePatterns": [
     "./.next/",
-    "./coverage/",
-    "./lib"
+    "./coverage/"
   ],
   "coverageThreshold": {
     "global": {

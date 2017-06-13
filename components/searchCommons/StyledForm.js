@@ -2,9 +2,12 @@ import glamorous from 'glamorous'
 
 const StyledForm = glamorous.form({
   display: 'block',
-  backgroundColor: '#123456'
+  marginTop: '0em'
 })
 
 StyledForm.displayName = 'StyledForm'
 
-export default StyledForm
+const Form = props => <StyledForm {...props} />
+
+export { StyledForm }
+export default Form
