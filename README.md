@@ -12,6 +12,6 @@ Understanding how to use dynamic styles &amp; animations.
 
 ## Todo
 
-- [ ] Recreate the dynamic search bar found [here](http://icanbecreative.com/article/css3-animated-search-box) using `glamorous`.
+- [x] Recreate the dynamic search bar found [here](http://icanbecreative.com/article/css3-animated-search-box) using `glamorous`.
 - [ ] Write tests for the search bar.
 - [ ] Implement with `redux-form`.
