@@ -27,7 +27,7 @@ import {
 const enhance = compose(
   withState('view', 'toggle', false),
   withHandlers({
-    handleOnClick: props => {
+    handleOnClick: props => () => {
       console.log(props)
       props.toggle(!props.view)
     }
