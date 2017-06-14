@@ -1,15 +1,13 @@
 import { Component } from 'react'
-import { reduxForm } from 'redux-form'
+
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
 import { getQuestions, page } from '../lib'
 // import { SearchBar } from '../components'
-import { Form } from '../components/searchCommons'
 
 import SearchBar from '../recomposeSearchBar'
 
-@reduxForm({ form: 'searchbar' })
 class Home extends Component {
   static propTypes = {
     getQuestions: PropTypes.func.isRequired,
@@ -34,12 +32,26 @@ class Home extends Component {
     console.log('CDU: index')
   }
   render() {
+    const { questions } = this.props.questions
     return (
-      <Form onSubmit={this.props.handleSubmit(this.props.getQuestions)}>
-        <SearchBar {...this.props} />
-      </Form>
+      <div>
+        <div>
+          <SearchBar {...this.props} />
+        </div>
+        <div>
+          <ul>
+            {questions.map(q =>
+              <li key={Math.random()}>
+                <a href={q.link}><h3>{q.title}</h3></a>
+              </li>
+            )}
+          </ul>
+        </div>
+      </div>
     )
   }
 }
 
-export default page(connect(null, { getQuestions })(Home))
+export default page(
+  connect(state => ({ questions: state.questions }), { getQuestions })(Home)
+)

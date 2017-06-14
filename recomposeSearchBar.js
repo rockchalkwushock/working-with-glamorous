@@ -1,7 +1,8 @@
 import { compose, withHandlers, withState } from 'recompose'
-import { Field } from 'redux-form'
+import { Field, reduxForm } from 'redux-form'
 
 import {
+  Form,
   Input,
   StyledButton,
   StyledClosingSpan,
@@ -25,6 +26,7 @@ import {
  */
 
 const enhance = compose(
+  reduxForm({ form: 'searchbar' }),
   withState('view', 'toggle', false),
   withHandlers({
     handleOnClick: props => () => {
@@ -34,21 +36,23 @@ const enhance = compose(
   })
 )
 
-const SearchBar = ({ handleOnClick, view }) =>
-  <StyledWrapper>
-    <StyledInputHolder open={view}>
-      <Field
-        component={Input}
-        name="query"
-        open={view}
-        placeholder="Search a topic on StackOverflow"
-        type="text"
-      />
-      <StyledButton onClick={handleOnClick} open={view}>
-        <StyledSpan open={view} />
-      </StyledButton>
-    </StyledInputHolder>
-    <StyledClosingSpan onClick={handleOnClick} open={view} />
-  </StyledWrapper>
+const SearchBar = ({ getQuestions, handleOnClick, handleSubmit, view }) =>
+  <Form onSubmit={handleSubmit(getQuestions)}>
+    <StyledWrapper>
+      <StyledInputHolder open={view}>
+        <Field
+          component={Input}
+          name="query"
+          open={view}
+          placeholder="Search a topic on StackOverflow"
+          type="text"
+        />
+        <StyledButton type="button" onClick={handleOnClick} open={view}>
+          <StyledSpan open={view} />
+        </StyledButton>
+      </StyledInputHolder>
+      <StyledClosingSpan onClick={handleOnClick} open={view} />
+    </StyledWrapper>
+  </Form>
 
 export default enhance(SearchBar)
