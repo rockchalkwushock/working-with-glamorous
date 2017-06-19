@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-1o5c7b1,
-[data-css-1o5c7b1] {
+.css-7veum2,
+[data-css-7veum2] {
   -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
   -webkit-transform: rotate(45deg);
   width: 22px;
@@ -14,40 +14,40 @@ exports[`enzyme.mount 1`] = `
   transform: rotate(45deg);
 }
 
-.css-1o5c7b1::before,
-[data-css-1o5c7b1]::before {
+.css-7veum2::before,
+[data-css-7veum2]::before {
   width: 4px;
   height: 11px;
   left: 9px;
   top: 18px;
   border-radius: 2px;
-  background-color: #974BE0;
+  background-color: #FEBA00;
   position: absolute;
   content: "";
 }
 
-.css-1o5c7b1::after,
-[data-css-1o5c7b1]::after {
+.css-7veum2::after,
+[data-css-7veum2]::after {
   width: 14px;
   height: 14px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
-  border: 4px solid #974BE0;
+  border: 4px solid #FEBA00;
   position: absolute;
   content: "";
 }
 
 <StyledSpan>
   <span
-    className="css-1o5c7b1"
+    className="css-7veum2"
   />
 </StyledSpan>
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-jiovv2,
-[data-css-jiovv2] {
+.css-uzxhyw,
+[data-css-uzxhyw] {
   -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
   -webkit-transform: rotate(-45deg);
   width: 22px;
@@ -59,26 +59,26 @@ exports[`enzyme.mount 2`] = `
   transform: rotate(-45deg);
 }
 
-.css-jiovv2::before,
-[data-css-jiovv2]::before {
+.css-uzxhyw::before,
+[data-css-uzxhyw]::before {
   width: 4px;
   height: 11px;
   left: 9px;
   top: 18px;
   border-radius: 2px;
-  background-color: #974BE0;
+  background-color: #FEBA00;
   position: absolute;
   content: "";
 }
 
-.css-jiovv2::after,
-[data-css-jiovv2]::after {
+.css-uzxhyw::after,
+[data-css-uzxhyw]::after {
   width: 14px;
   height: 14px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
-  border: 4px solid #974BE0;
+  border: 4px solid #FEBA00;
   position: absolute;
   content: "";
 }
@@ -87,14 +87,14 @@ exports[`enzyme.mount 2`] = `
   open={true}
 >
   <span
-    className="css-jiovv2"
+    className="css-uzxhyw"
   />
 </StyledSpan>
 `;
 
 exports[`enzyme.render 1`] = `
-.css-1o5c7b1,
-[data-css-1o5c7b1] {
+.css-7veum2,
+[data-css-7veum2] {
   -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
   -webkit-transform: rotate(45deg);
   width: 22px;
@@ -106,38 +106,38 @@ exports[`enzyme.render 1`] = `
   transform: rotate(45deg);
 }
 
-.css-1o5c7b1::before,
-[data-css-1o5c7b1]::before {
+.css-7veum2::before,
+[data-css-7veum2]::before {
   width: 4px;
   height: 11px;
   left: 9px;
   top: 18px;
   border-radius: 2px;
-  background-color: #974BE0;
+  background-color: #FEBA00;
   position: absolute;
   content: "";
 }
 
-.css-1o5c7b1::after,
-[data-css-1o5c7b1]::after {
+.css-7veum2::after,
+[data-css-7veum2]::after {
   width: 14px;
   height: 14px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
-  border: 4px solid #974BE0;
+  border: 4px solid #FEBA00;
   position: absolute;
   content: "";
 }
 
 <span
-  class="css-1o5c7b1"
+  class="css-7veum2"
 />
 `;
 
 exports[`enzyme.render 2`] = `
-.css-jiovv2,
-[data-css-jiovv2] {
+.css-uzxhyw,
+[data-css-uzxhyw] {
   -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
   -webkit-transform: rotate(-45deg);
   width: 22px;
@@ -149,38 +149,38 @@ exports[`enzyme.render 2`] = `
   transform: rotate(-45deg);
 }
 
-.css-jiovv2::before,
-[data-css-jiovv2]::before {
+.css-uzxhyw::before,
+[data-css-uzxhyw]::before {
   width: 4px;
   height: 11px;
   left: 9px;
   top: 18px;
   border-radius: 2px;
-  background-color: #974BE0;
+  background-color: #FEBA00;
   position: absolute;
   content: "";
 }
 
-.css-jiovv2::after,
-[data-css-jiovv2]::after {
+.css-uzxhyw::after,
+[data-css-uzxhyw]::after {
   width: 14px;
   height: 14px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
-  border: 4px solid #974BE0;
+  border: 4px solid #FEBA00;
   position: absolute;
   content: "";
 }
 
 <span
-  class="css-jiovv2"
+  class="css-uzxhyw"
 />
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-1o5c7b1,
-[data-css-1o5c7b1] {
+.css-7veum2,
+[data-css-7veum2] {
   -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
   -webkit-transform: rotate(45deg);
   width: 22px;
@@ -192,38 +192,38 @@ exports[`enzyme.shallow 1`] = `
   transform: rotate(45deg);
 }
 
-.css-1o5c7b1::before,
-[data-css-1o5c7b1]::before {
+.css-7veum2::before,
+[data-css-7veum2]::before {
   width: 4px;
   height: 11px;
   left: 9px;
   top: 18px;
   border-radius: 2px;
-  background-color: #974BE0;
+  background-color: #FEBA00;
   position: absolute;
   content: "";
 }
 
-.css-1o5c7b1::after,
-[data-css-1o5c7b1]::after {
+.css-7veum2::after,
+[data-css-7veum2]::after {
   width: 14px;
   height: 14px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
-  border: 4px solid #974BE0;
+  border: 4px solid #FEBA00;
   position: absolute;
   content: "";
 }
 
 <span
-  className="css-1o5c7b1"
+  className="css-7veum2"
 />
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-jiovv2,
-[data-css-jiovv2] {
+.css-uzxhyw,
+[data-css-uzxhyw] {
   -webkit-transition: all 0.4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
   -webkit-transform: rotate(-45deg);
   width: 22px;
@@ -235,31 +235,31 @@ exports[`enzyme.shallow 2`] = `
   transform: rotate(-45deg);
 }
 
-.css-jiovv2::before,
-[data-css-jiovv2]::before {
+.css-uzxhyw::before,
+[data-css-uzxhyw]::before {
   width: 4px;
   height: 11px;
   left: 9px;
   top: 18px;
   border-radius: 2px;
-  background-color: #974BE0;
+  background-color: #FEBA00;
   position: absolute;
   content: "";
 }
 
-.css-jiovv2::after,
-[data-css-jiovv2]::after {
+.css-uzxhyw::after,
+[data-css-uzxhyw]::after {
   width: 14px;
   height: 14px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
-  border: 4px solid #974BE0;
+  border: 4px solid #FEBA00;
   position: absolute;
   content: "";
 }
 
 <span
-  className="css-jiovv2"
+  className="css-uzxhyw"
 />
 `;

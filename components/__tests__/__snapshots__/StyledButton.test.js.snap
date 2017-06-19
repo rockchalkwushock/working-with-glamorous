@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-8l91rp,
-[data-css-8l91rp] {
+.css-17ppabt,
+[data-css-17ppabt] {
   -webkit-transition: all 0.3s ease-in-out;
   border: none;
   padding: 0px;
   outline: none;
   position: relative;
   z-index: 2;
-  background: #fff;
+  background: #0C98EB;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   width: 70px;
@@ -20,14 +20,14 @@ exports[`enzyme.mount 1`] = `
 
 <StyledButton>
   <button
-    className="css-8l91rp"
+    className="css-17ppabt"
   />
 </StyledButton>
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-1sy45cz,
-[data-css-1sy45cz] {
+.css-hah8i5,
+[data-css-hah8i5] {
   -webkit-transition: all 0.3s ease-in-out;
   border: none;
   padding: 0px;
@@ -35,7 +35,7 @@ exports[`enzyme.mount 2`] = `
   position: relative;
   z-index: 2;
   float: right;
-  background: #fff;
+  background: #0C98EB;
   transition: all 0.3s ease-in-out;
   width: 50px;
   height: 50px;
@@ -48,21 +48,21 @@ exports[`enzyme.mount 2`] = `
   open={true}
 >
   <button
-    className="css-1sy45cz"
+    className="css-hah8i5"
   />
 </StyledButton>
 `;
 
 exports[`enzyme.render 1`] = `
-.css-8l91rp,
-[data-css-8l91rp] {
+.css-17ppabt,
+[data-css-17ppabt] {
   -webkit-transition: all 0.3s ease-in-out;
   border: none;
   padding: 0px;
   outline: none;
   position: relative;
   z-index: 2;
-  background: #fff;
+  background: #0C98EB;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   width: 70px;
@@ -72,13 +72,13 @@ exports[`enzyme.render 1`] = `
 }
 
 <button
-  class="css-8l91rp"
+  class="css-17ppabt"
 />
 `;
 
 exports[`enzyme.render 2`] = `
-.css-1sy45cz,
-[data-css-1sy45cz] {
+.css-hah8i5,
+[data-css-hah8i5] {
   -webkit-transition: all 0.3s ease-in-out;
   border: none;
   padding: 0px;
@@ -86,7 +86,7 @@ exports[`enzyme.render 2`] = `
   position: relative;
   z-index: 2;
   float: right;
-  background: #fff;
+  background: #0C98EB;
   transition: all 0.3s ease-in-out;
   width: 50px;
   height: 50px;
@@ -96,20 +96,20 @@ exports[`enzyme.render 2`] = `
 }
 
 <button
-  class="css-1sy45cz"
+  class="css-hah8i5"
 />
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-8l91rp,
-[data-css-8l91rp] {
+.css-17ppabt,
+[data-css-17ppabt] {
   -webkit-transition: all 0.3s ease-in-out;
   border: none;
   padding: 0px;
   outline: none;
   position: relative;
   z-index: 2;
-  background: #fff;
+  background: #0C98EB;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   width: 70px;
@@ -119,13 +119,13 @@ exports[`enzyme.shallow 1`] = `
 }
 
 <button
-  className="css-8l91rp"
+  className="css-17ppabt"
 />
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-1sy45cz,
-[data-css-1sy45cz] {
+.css-hah8i5,
+[data-css-hah8i5] {
   -webkit-transition: all 0.3s ease-in-out;
   border: none;
   padding: 0px;
@@ -133,7 +133,7 @@ exports[`enzyme.shallow 2`] = `
   position: relative;
   z-index: 2;
   float: right;
-  background: #fff;
+  background: #0C98EB;
   transition: all 0.3s ease-in-out;
   width: 50px;
   height: 50px;
@@ -143,6 +143,6 @@ exports[`enzyme.shallow 2`] = `
 }
 
 <button
-  className="css-1sy45cz"
+  className="css-hah8i5"
 />
 `;

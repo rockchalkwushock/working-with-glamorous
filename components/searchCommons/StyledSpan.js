@@ -1,5 +1,7 @@
 import glamorous from 'glamorous'
 
+import { colors } from '../../lib/styles/global'
+
 const StyledSpan = glamorous.span(
   {
     width: '22px',
@@ -14,7 +16,7 @@ const StyledSpan = glamorous.span(
       left: '9px',
       top: '18px',
       borderRadius: '2px',
-      backgroundColor: '#974BE0',
+      backgroundColor: `${colors.emphasis}`,
       position: 'absolute',
       content: '""'
     },
@@ -24,7 +26,7 @@ const StyledSpan = glamorous.span(
       left: '0px',
       top: '0px',
       borderRadius: '16px',
-      border: '4px solid #974BE0',
+      border: `4px solid ${colors.emphasis}`,
       position: 'absolute',
       content: '""'
     }

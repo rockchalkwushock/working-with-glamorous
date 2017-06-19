@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-1hbe0cq,
-[data-css-1hbe0cq] {
+.css-8pl84a,
+[data-css-8pl84a] {
   -webkit-transition-delay: 0.2s;
   -webkit-transform: rotate(-180deg);
   -webkit-transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
@@ -18,40 +18,40 @@ exports[`enzyme.mount 1`] = `
   right: 20px;
 }
 
-.css-1hbe0cq::before,
-[data-css-1hbe0cq]::before {
+.css-8pl84a::before,
+[data-css-8pl84a]::before {
   width: 5px;
   height: 25px;
   left: 10px;
   top: 0px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
-.css-1hbe0cq::after,
-[data-css-1hbe0cq]::after {
+.css-8pl84a::after,
+[data-css-8pl84a]::after {
   width: 25px;
   height: 5px;
   left: 0px;
   top: 10px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
 <StyledClosingSpan>
   <span
-    className="css-1hbe0cq"
+    className="css-8pl84a"
   />
 </StyledClosingSpan>
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-19v79ex,
-[data-css-19v79ex] {
+.css-1wvo26v,
+[data-css-1wvo26v] {
   -webkit-transition-delay: 0.5s;
   -webkit-transform: rotate(45deg);
   -webkit-transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
@@ -67,27 +67,27 @@ exports[`enzyme.mount 2`] = `
   right: -50px;
 }
 
-.css-19v79ex::before,
-[data-css-19v79ex]::before {
+.css-1wvo26v::before,
+[data-css-1wvo26v]::before {
   width: 5px;
   height: 25px;
   left: 10px;
   top: 0px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
-.css-19v79ex::after,
-[data-css-19v79ex]::after {
+.css-1wvo26v::after,
+[data-css-1wvo26v]::after {
   width: 25px;
   height: 5px;
   left: 0px;
   top: 10px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
@@ -95,14 +95,14 @@ exports[`enzyme.mount 2`] = `
   open={true}
 >
   <span
-    className="css-19v79ex"
+    className="css-1wvo26v"
   />
 </StyledClosingSpan>
 `;
 
 exports[`enzyme.render 1`] = `
-.css-1hbe0cq,
-[data-css-1hbe0cq] {
+.css-8pl84a,
+[data-css-8pl84a] {
   -webkit-transition-delay: 0.2s;
   -webkit-transform: rotate(-180deg);
   -webkit-transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
@@ -118,38 +118,38 @@ exports[`enzyme.render 1`] = `
   right: 20px;
 }
 
-.css-1hbe0cq::before,
-[data-css-1hbe0cq]::before {
+.css-8pl84a::before,
+[data-css-8pl84a]::before {
   width: 5px;
   height: 25px;
   left: 10px;
   top: 0px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
-.css-1hbe0cq::after,
-[data-css-1hbe0cq]::after {
+.css-8pl84a::after,
+[data-css-8pl84a]::after {
   width: 25px;
   height: 5px;
   left: 0px;
   top: 10px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
 <span
-  class="css-1hbe0cq"
+  class="css-8pl84a"
 />
 `;
 
 exports[`enzyme.render 2`] = `
-.css-19v79ex,
-[data-css-19v79ex] {
+.css-1wvo26v,
+[data-css-1wvo26v] {
   -webkit-transition-delay: 0.5s;
   -webkit-transform: rotate(45deg);
   -webkit-transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
@@ -165,38 +165,38 @@ exports[`enzyme.render 2`] = `
   right: -50px;
 }
 
-.css-19v79ex::before,
-[data-css-19v79ex]::before {
+.css-1wvo26v::before,
+[data-css-1wvo26v]::before {
   width: 5px;
   height: 25px;
   left: 10px;
   top: 0px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
-.css-19v79ex::after,
-[data-css-19v79ex]::after {
+.css-1wvo26v::after,
+[data-css-1wvo26v]::after {
   width: 25px;
   height: 5px;
   left: 0px;
   top: 10px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
 <span
-  class="css-19v79ex"
+  class="css-1wvo26v"
 />
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-1hbe0cq,
-[data-css-1hbe0cq] {
+.css-8pl84a,
+[data-css-8pl84a] {
   -webkit-transition-delay: 0.2s;
   -webkit-transform: rotate(-180deg);
   -webkit-transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
@@ -212,38 +212,38 @@ exports[`enzyme.shallow 1`] = `
   right: 20px;
 }
 
-.css-1hbe0cq::before,
-[data-css-1hbe0cq]::before {
+.css-8pl84a::before,
+[data-css-8pl84a]::before {
   width: 5px;
   height: 25px;
   left: 10px;
   top: 0px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
-.css-1hbe0cq::after,
-[data-css-1hbe0cq]::after {
+.css-8pl84a::after,
+[data-css-8pl84a]::after {
   width: 25px;
   height: 5px;
   left: 0px;
   top: 10px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
 <span
-  className="css-1hbe0cq"
+  className="css-8pl84a"
 />
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-19v79ex,
-[data-css-19v79ex] {
+.css-1wvo26v,
+[data-css-1wvo26v] {
   -webkit-transition-delay: 0.5s;
   -webkit-transform: rotate(45deg);
   -webkit-transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
@@ -259,31 +259,31 @@ exports[`enzyme.shallow 2`] = `
   right: -50px;
 }
 
-.css-19v79ex::before,
-[data-css-19v79ex]::before {
+.css-1wvo26v::before,
+[data-css-1wvo26v]::before {
   width: 5px;
   height: 25px;
   left: 10px;
   top: 0px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
-.css-19v79ex::after,
-[data-css-19v79ex]::after {
+.css-1wvo26v::after,
+[data-css-1wvo26v]::after {
   width: 25px;
   height: 5px;
   left: 0px;
   top: 10px;
   position: absolute;
   content: "";
-  background-color: #FFF;
+  background-color: #0C98EB;
   border-radius: 2px;
 }
 
 <span
-  className="css-19v79ex"
+  className="css-1wvo26v"
 />
 `;

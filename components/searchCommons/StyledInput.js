@@ -1,5 +1,7 @@
 import glamorous from 'glamorous'
 
+import { colors, fonts } from '../../lib/styles/global'
+
 const StyledInput = glamorous.input(
   {
     display: 'inline-block',
@@ -13,11 +15,11 @@ const StyledInput = glamorous.input(
     boxSizing: 'border-box',
     border: 'none',
     outline: 'none',
-    fontFamily: '"Open Sans", Arial, Verdana',
+    fontFamily: `${fonts.primary}`,
     fontSize: '16px',
     fontWeight: 400,
     lineHeight: '20px',
-    color: '#fff',
+    color: `${colors.emphasis}`,
     transition: 'all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570)',
     transitionDelay: '0.3s'
   },

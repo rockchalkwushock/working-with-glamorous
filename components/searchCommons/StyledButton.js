@@ -1,9 +1,11 @@
 import glamorous from 'glamorous'
 
+import { colors } from '../../lib/styles/global'
+
 const StyledButton = glamorous.button(
   {
     border: 'none',
-    background: '#fff',
+    background: `${colors.ternary}`,
     padding: '0px',
     outline: 'none',
     position: 'relative',
