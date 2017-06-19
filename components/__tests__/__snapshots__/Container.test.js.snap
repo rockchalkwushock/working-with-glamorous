@@ -1,31 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-yp8af0,
-[data-css-yp8af0] {
+.css-9bznvv,
+[data-css-9bznvv] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
 <StyledContainer>
   <div
-    className="css-yp8af0"
+    className="css-9bznvv"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-yp8af0,
-[data-css-yp8af0] {
+.css-9bznvv,
+[data-css-9bznvv] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
@@ -33,19 +33,19 @@ exports[`enzyme.mount 2`] = `
   size={true}
 >
   <div
-    className="css-yp8af0"
+    className="css-9bznvv"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.mount 3`] = `
-.css-1jwowm9,
-[data-css-1jwowm9] {
+.css-1so39w9,
+[data-css-1so39w9] {
   display: block;
   margin: auto;
   background-color: #042C43;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
@@ -53,103 +53,103 @@ exports[`enzyme.mount 3`] = `
   color={true}
 >
   <div
-    className="css-1jwowm9"
+    className="css-1so39w9"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.render 1`] = `
-.css-yp8af0,
-[data-css-yp8af0] {
+.css-9bznvv,
+[data-css-9bznvv] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
 <div
-  class="css-yp8af0"
+  class="css-9bznvv"
 />
 `;
 
 exports[`enzyme.render 2`] = `
-.css-yp8af0,
-[data-css-yp8af0] {
+.css-9bznvv,
+[data-css-9bznvv] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
 <div
-  class="css-yp8af0"
+  class="css-9bznvv"
 />
 `;
 
 exports[`enzyme.render 3`] = `
-.css-1jwowm9,
-[data-css-1jwowm9] {
+.css-1so39w9,
+[data-css-1so39w9] {
   display: block;
   margin: auto;
   background-color: #042C43;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
 <div
-  class="css-1jwowm9"
+  class="css-1so39w9"
 />
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-yp8af0,
-[data-css-yp8af0] {
+.css-9bznvv,
+[data-css-9bznvv] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
 <div
-  className="css-yp8af0"
+  className="css-9bznvv"
 />
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-yp8af0,
-[data-css-yp8af0] {
+.css-9bznvv,
+[data-css-9bznvv] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
 <div
-  className="css-yp8af0"
+  className="css-9bznvv"
 />
 `;
 
 exports[`enzyme.shallow 3`] = `
-.css-1jwowm9,
-[data-css-1jwowm9] {
+.css-1so39w9,
+[data-css-1so39w9] {
   display: block;
   margin: auto;
   background-color: #042C43;
-  min-height: 100vh;
   max-width: 50em;
+  min-height: 100vh;
   text-align: left;
 }
 
 <div
-  className="css-1jwowm9"
+  className="css-1so39w9"
 />
 `;

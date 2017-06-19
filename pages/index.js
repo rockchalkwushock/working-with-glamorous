@@ -1,14 +1,12 @@
 import { Component } from 'react'
-
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
 import { getQuestions, page } from '../lib'
-// import { SearchBar } from '../components'
 
-import { Container, Title } from '../components'
+import { Container, List, Title } from '../components'
 
-// import SearchBar from '../recomposeSearchBar'
+import SearchBar from '../recomposeSearchBar'
 
 class Home extends Component {
   static propTypes = {
@@ -22,11 +20,15 @@ class Home extends Component {
     }).isRequired
   }
   render() {
-    // const { questions } = this.props.questions
+    const { questions } = this.props.questions
     return (
       <Container>
-        <Container align color height>
+        <Container align height>
           <Title />
+        </Container>
+        <SearchBar {...this.props} />
+        <Container height results>
+          <List questions={questions} />
         </Container>
       </Container>
     )
@@ -36,17 +38,3 @@ class Home extends Component {
 export default page(
   connect(state => ({ questions: state.questions }), { getQuestions })(Home)
 )
-
-/**
- *
-        <SearchBar {...this.props} />
-        <div>
-          <ul>
-            {questions.map(q =>
-              <li key={Math.random()}>
-                <a href={q.link}><h3>{q.title}</h3></a>
-              </li>
-            )}
-          </ul>
-        </div>
- */

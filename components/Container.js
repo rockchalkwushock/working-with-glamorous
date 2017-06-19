@@ -16,8 +16,11 @@ const StyledContainer = glamorous.div(
   },
   props => ({
     backgroundColor: props.color ? `${colors.x}` : `${colors.ternary}`,
-    minHeight: props.height ? null : '100vh',
+    bottom: props.results ? '0' : null,
+    left: props.results ? '25%' : null,
     maxWidth: props.width ? '25em' : '50em',
+    minHeight: props.height ? '25vh' : '100vh',
+    position: props.results ? 'absolute' : null,
     textAlign: props.align ? 'center' : 'left'
   })
 )
