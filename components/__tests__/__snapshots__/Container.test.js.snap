@@ -19,26 +19,6 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-9bznvv,
-[data-css-9bznvv] {
-  display: block;
-  margin: auto;
-  background-color: #0C98EB;
-  max-width: 50em;
-  min-height: 100vh;
-  text-align: left;
-}
-
-<StyledContainer
-  size={true}
->
-  <div
-    className="css-9bznvv"
-  />
-</StyledContainer>
-`;
-
-exports[`enzyme.mount 3`] = `
 .css-1so39w9,
 [data-css-1so39w9] {
   display: block;
@@ -54,6 +34,89 @@ exports[`enzyme.mount 3`] = `
 >
   <div
     className="css-1so39w9"
+  />
+</StyledContainer>
+`;
+
+exports[`enzyme.mount 3`] = `
+.css-1u39165,
+[data-css-1u39165] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  bottom: 0px;
+  left: 25%;
+  max-width: 50em;
+  min-height: 100vh;
+  position: absolute;
+  text-align: left;
+}
+
+<StyledContainer
+  results={true}
+>
+  <div
+    className="css-1u39165"
+  />
+</StyledContainer>
+`;
+
+exports[`enzyme.mount 4`] = `
+.css-179p1ro,
+[data-css-179p1ro] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 25em;
+  min-height: 100vh;
+  text-align: left;
+}
+
+<StyledContainer
+  width={true}
+>
+  <div
+    className="css-179p1ro"
+  />
+</StyledContainer>
+`;
+
+exports[`enzyme.mount 5`] = `
+.css-yxuqi,
+[data-css-yxuqi] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 50em;
+  min-height: 25vh;
+  text-align: left;
+}
+
+<StyledContainer
+  height={true}
+>
+  <div
+    className="css-yxuqi"
+  />
+</StyledContainer>
+`;
+
+exports[`enzyme.mount 6`] = `
+.css-elyozs,
+[data-css-elyozs] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 50em;
+  min-height: 100vh;
+  text-align: center;
+}
+
+<StyledContainer
+  align={true}
+>
+  <div
+    className="css-elyozs"
   />
 </StyledContainer>
 `;
@@ -75,22 +138,6 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.render 2`] = `
-.css-9bznvv,
-[data-css-9bznvv] {
-  display: block;
-  margin: auto;
-  background-color: #0C98EB;
-  max-width: 50em;
-  min-height: 100vh;
-  text-align: left;
-}
-
-<div
-  class="css-9bznvv"
-/>
-`;
-
-exports[`enzyme.render 3`] = `
 .css-1so39w9,
 [data-css-1so39w9] {
   display: block;
@@ -103,6 +150,73 @@ exports[`enzyme.render 3`] = `
 
 <div
   class="css-1so39w9"
+/>
+`;
+
+exports[`enzyme.render 3`] = `
+.css-1u39165,
+[data-css-1u39165] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  bottom: 0px;
+  left: 25%;
+  max-width: 50em;
+  min-height: 100vh;
+  position: absolute;
+  text-align: left;
+}
+
+<div
+  class="css-1u39165"
+/>
+`;
+
+exports[`enzyme.render 4`] = `
+.css-179p1ro,
+[data-css-179p1ro] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 25em;
+  min-height: 100vh;
+  text-align: left;
+}
+
+<div
+  class="css-179p1ro"
+/>
+`;
+
+exports[`enzyme.render 5`] = `
+.css-yxuqi,
+[data-css-yxuqi] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 50em;
+  min-height: 25vh;
+  text-align: left;
+}
+
+<div
+  class="css-yxuqi"
+/>
+`;
+
+exports[`enzyme.render 6`] = `
+.css-elyozs,
+[data-css-elyozs] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 50em;
+  min-height: 100vh;
+  text-align: center;
+}
+
+<div
+  class="css-elyozs"
 />
 `;
 
@@ -123,22 +237,6 @@ exports[`enzyme.shallow 1`] = `
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-9bznvv,
-[data-css-9bznvv] {
-  display: block;
-  margin: auto;
-  background-color: #0C98EB;
-  max-width: 50em;
-  min-height: 100vh;
-  text-align: left;
-}
-
-<div
-  className="css-9bznvv"
-/>
-`;
-
-exports[`enzyme.shallow 3`] = `
 .css-1so39w9,
 [data-css-1so39w9] {
   display: block;
@@ -151,5 +249,72 @@ exports[`enzyme.shallow 3`] = `
 
 <div
   className="css-1so39w9"
+/>
+`;
+
+exports[`enzyme.shallow 3`] = `
+.css-1u39165,
+[data-css-1u39165] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  bottom: 0px;
+  left: 25%;
+  max-width: 50em;
+  min-height: 100vh;
+  position: absolute;
+  text-align: left;
+}
+
+<div
+  className="css-1u39165"
+/>
+`;
+
+exports[`enzyme.shallow 4`] = `
+.css-179p1ro,
+[data-css-179p1ro] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 25em;
+  min-height: 100vh;
+  text-align: left;
+}
+
+<div
+  className="css-179p1ro"
+/>
+`;
+
+exports[`enzyme.shallow 5`] = `
+.css-yxuqi,
+[data-css-yxuqi] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 50em;
+  min-height: 25vh;
+  text-align: left;
+}
+
+<div
+  className="css-yxuqi"
+/>
+`;
+
+exports[`enzyme.shallow 6`] = `
+.css-elyozs,
+[data-css-elyozs] {
+  display: block;
+  margin: auto;
+  background-color: #0C98EB;
+  max-width: 50em;
+  min-height: 100vh;
+  text-align: center;
+}
+
+<div
+  className="css-elyozs"
 />
 `;

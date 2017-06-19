@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1oawyek,
+[data-css-1oawyek] {
+  color: #FEBA00;
+  font-family: "Pacifico", cursive;
+  margin: 0px;
+  padding: 1em 0 1em 0;
+}
+
+<Title>
+  <StyledTitle>
+    <h1
+      className="css-1oawyek"
+    >
+      Glamorous SearchBar
+    </h1>
+  </StyledTitle>
+</Title>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1oawyek,
+[data-css-1oawyek] {
+  color: #FEBA00;
+  font-family: "Pacifico", cursive;
+  margin: 0px;
+  padding: 1em 0 1em 0;
+}
+
+<h1
+  class="css-1oawyek"
+>
+  Glamorous SearchBar
+</h1>
+`;
+
+exports[`enzyme.shallow 1`] = `
+<StyledTitle>
+  Glamorous SearchBar
+</StyledTitle>
+`;

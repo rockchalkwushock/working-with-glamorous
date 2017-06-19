@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1hbe0cq,
+[data-css-1hbe0cq] {
+  -webkit-transition-delay: 0.2s;
+  -webkit-transform: rotate(-180deg);
+  -webkit-transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(-180deg);
+  transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+  transition-delay: 0.2s;
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+
+.css-1hbe0cq::before,
+[data-css-1hbe0cq]::before {
+  width: 5px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+.css-1hbe0cq::after,
+[data-css-1hbe0cq]::after {
+  width: 25px;
+  height: 5px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+<StyledClosingSpan>
+  <span
+    className="css-1hbe0cq"
+  />
+</StyledClosingSpan>
+`;
+
+exports[`enzyme.mount 2`] = `
+.css-19v79ex,
+[data-css-19v79ex] {
+  -webkit-transition-delay: 0.5s;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(45deg);
+  transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.5s;
+  position: absolute;
+  top: 24px;
+  right: -50px;
+}
+
+.css-19v79ex::before,
+[data-css-19v79ex]::before {
+  width: 5px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+.css-19v79ex::after,
+[data-css-19v79ex]::after {
+  width: 25px;
+  height: 5px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+<StyledClosingSpan
+  open={true}
+>
+  <span
+    className="css-19v79ex"
+  />
+</StyledClosingSpan>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1hbe0cq,
+[data-css-1hbe0cq] {
+  -webkit-transition-delay: 0.2s;
+  -webkit-transform: rotate(-180deg);
+  -webkit-transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(-180deg);
+  transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+  transition-delay: 0.2s;
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+
+.css-1hbe0cq::before,
+[data-css-1hbe0cq]::before {
+  width: 5px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+.css-1hbe0cq::after,
+[data-css-1hbe0cq]::after {
+  width: 25px;
+  height: 5px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+<span
+  class="css-1hbe0cq"
+/>
+`;
+
+exports[`enzyme.render 2`] = `
+.css-19v79ex,
+[data-css-19v79ex] {
+  -webkit-transition-delay: 0.5s;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(45deg);
+  transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.5s;
+  position: absolute;
+  top: 24px;
+  right: -50px;
+}
+
+.css-19v79ex::before,
+[data-css-19v79ex]::before {
+  width: 5px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+.css-19v79ex::after,
+[data-css-19v79ex]::after {
+  width: 25px;
+  height: 5px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+<span
+  class="css-19v79ex"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-1hbe0cq,
+[data-css-1hbe0cq] {
+  -webkit-transition-delay: 0.2s;
+  -webkit-transform: rotate(-180deg);
+  -webkit-transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(-180deg);
+  transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+  transition-delay: 0.2s;
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+
+.css-1hbe0cq::before,
+[data-css-1hbe0cq]::before {
+  width: 5px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+.css-1hbe0cq::after,
+[data-css-1hbe0cq]::after {
+  width: 25px;
+  height: 5px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+<span
+  className="css-1hbe0cq"
+/>
+`;
+
+exports[`enzyme.shallow 2`] = `
+.css-19v79ex,
+[data-css-19v79ex] {
+  -webkit-transition-delay: 0.5s;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(45deg);
+  transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.5s;
+  position: absolute;
+  top: 24px;
+  right: -50px;
+}
+
+.css-19v79ex::before,
+[data-css-19v79ex]::before {
+  width: 5px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+.css-19v79ex::after,
+[data-css-19v79ex]::after {
+  width: 25px;
+  height: 5px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  content: "";
+  background-color: #FFF;
+  border-radius: 2px;
+}
+
+<span
+  className="css-19v79ex"
+/>
+`;

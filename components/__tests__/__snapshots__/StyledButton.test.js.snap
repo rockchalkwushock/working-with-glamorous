@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-8l91rp,
+[data-css-8l91rp] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  float: right;
+}
+
+<StyledButton>
+  <button
+    className="css-8l91rp"
+  />
+</StyledButton>
+`;
+
+exports[`enzyme.mount 2`] = `
+.css-1sy45cz,
+[data-css-1sy45cz] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  float: right;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+<StyledButton
+  open={true}
+>
+  <button
+    className="css-1sy45cz"
+  />
+</StyledButton>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-8l91rp,
+[data-css-8l91rp] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  float: right;
+}
+
+<button
+  class="css-8l91rp"
+/>
+`;
+
+exports[`enzyme.render 2`] = `
+.css-1sy45cz,
+[data-css-1sy45cz] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  float: right;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+<button
+  class="css-1sy45cz"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-8l91rp,
+[data-css-8l91rp] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  float: right;
+}
+
+<button
+  className="css-8l91rp"
+/>
+`;
+
+exports[`enzyme.shallow 2`] = `
+.css-1sy45cz,
+[data-css-1sy45cz] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  float: right;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+<button
+  className="css-1sy45cz"
+/>
+`;

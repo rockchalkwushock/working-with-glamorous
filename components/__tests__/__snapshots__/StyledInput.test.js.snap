@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-kcozf0,
+[data-css-kcozf0] {
+  -webkit-transform: translate(0, 60px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Verdana;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 0;
+  transform: translate(0, 60px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<StyledInput>
+  <input
+    className="css-kcozf0"
+  />
+</StyledInput>
+`;
+
+exports[`enzyme.mount 2`] = `
+.css-17visw8,
+[data-css-17visw8] {
+  -webkit-transform: translate(0, 10px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Verdana;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: translate(0, 10px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<StyledInput
+  open={true}
+>
+  <input
+    className="css-17visw8"
+  />
+</StyledInput>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-kcozf0,
+[data-css-kcozf0] {
+  -webkit-transform: translate(0, 60px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Verdana;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 0;
+  transform: translate(0, 60px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  class="css-kcozf0"
+/>
+`;
+
+exports[`enzyme.render 2`] = `
+.css-17visw8,
+[data-css-17visw8] {
+  -webkit-transform: translate(0, 10px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Verdana;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: translate(0, 10px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  class="css-17visw8"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-kcozf0,
+[data-css-kcozf0] {
+  -webkit-transform: translate(0, 60px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Verdana;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 0;
+  transform: translate(0, 60px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  className="css-kcozf0"
+/>
+`;
+
+exports[`enzyme.shallow 2`] = `
+.css-17visw8,
+[data-css-17visw8] {
+  -webkit-transform: translate(0, 10px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Verdana;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: translate(0, 10px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  className="css-17visw8"
+/>
+`;

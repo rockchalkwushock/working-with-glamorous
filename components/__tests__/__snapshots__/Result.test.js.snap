@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1xzrot3,
+[data-css-1xzrot3] {
+  color: green;
+}
+
+.css-v5siu3,
+[data-css-v5siu3] {
+  color: orange;
+}
+
+.css-v5siu3:visited,
+[data-css-v5siu3]:visited {
+  color: orange;
+}
+
+.css-v5siu3:hover,
+[data-css-v5siu3]:hover {
+  color: green;
+}
+
+<Result>
+  <StyledResult>
+    <li
+      className="css-1xzrot3"
+    >
+      <StyledLink>
+        <a
+          className="css-v5siu3"
+        />
+      </StyledLink>
+    </li>
+  </StyledResult>
+</Result>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1xzrot3,
+[data-css-1xzrot3] {
+  color: green;
+}
+
+.css-v5siu3,
+[data-css-v5siu3] {
+  color: orange;
+}
+
+.css-v5siu3:visited,
+[data-css-v5siu3]:visited {
+  color: orange;
+}
+
+.css-v5siu3:hover,
+[data-css-v5siu3]:hover {
+  color: green;
+}
+
+<li
+  class="css-1xzrot3"
+>
+  <a
+    class="css-v5siu3"
+  />
+</li>
+`;
+
+exports[`enzyme.shallow 1`] = `
+<StyledResult>
+  <StyledLink />
+</StyledResult>
+`;
