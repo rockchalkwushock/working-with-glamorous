@@ -28,6 +28,15 @@ class Home extends Component {
   }
 }
 
+/**
+ * NOTE:
+ * Wrap page => connect => Component because Provider is coming from page.
+ * page is not built to be used as a decorator or I could:
+ *
+ *    @page()
+ *    @connect(state => ({ questions: state.questions }), { getQuestions })
+ *    export default Home extends Component { ... }
+ */
 export default page(
   connect(state => ({ questions: state.questions }), { getQuestions })(Home)
 )
