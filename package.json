@@ -6,19 +6,15 @@
   "author": "Cody Brunner <rockchalkwushock@icloud.com> (https://rcws-development.com)",
   "license": "MIT",
   "scripts": {
-    "build": "next build",
-    "dev": "next",
-    "lint": "eslint components lib pages --fix",
-    "precommit": "lint-staged && yarn test",
+    "build": "nps build",
+    "dev": "nps dev",
+    "precommit": "lint-staged && nps validate",
     "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --no-semi --use-tabs",
-    "start": "next start",
-    "test": "jest --config jest.config.json --runInBand",
-    "test:cov": "yarn test -- --coverage",
-    "test:watch": "yarn test -- --watch"
+    "start": "nps",
+    "test": "nps test"
   },
   "lint-staged": {
     "*.js": [
-      "yarn lint",
       "yarn prettier",
       "git add"
     ]
@@ -40,6 +36,7 @@
   },
   "devDependencies": {
     "babel-plugin-glamorous-displayname": "~1.1.3",
+    "codecov": "~2.2.0",
     "enzyme": "~2.8.2",
     "enzyme-to-json": "~1.5.1",
     "eslint": "~4.0.0",
@@ -50,6 +47,8 @@
     "jest-cli": "~20.0.4",
     "jest-glamor-react": "~1.4.0",
     "lint-staged": "~4.0.0",
+    "nps": "~5.3.2",
+    "nps-utils": "~1.2.0",
     "prettier": "~1.4.4",
     "react-test-renderer": "~15.6.1",
     "redux-devtools-extension": "~2.13.2",
