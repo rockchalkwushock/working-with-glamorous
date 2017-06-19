@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 
 import { getQuestions, page } from '../lib'
 
-import { Container, List, Title } from '../components'
+import { Container, List, SearchBar, Title } from '../components'
 
-import SearchBar from '../recomposeSearchBar'
+// import SearchBar from '../recomposeSearchBar'
 
 class Home extends Component {
   static propTypes = {
