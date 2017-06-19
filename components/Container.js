@@ -11,17 +11,17 @@ import { colors } from '../lib/styles/global'
  */
 const StyledContainer = glamorous.div(
   {
-    display: 'block',
-    margin: 'auto'
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center'
   },
-  props => ({
-    backgroundColor: props.color ? `${colors.x}` : `${colors.ternary}`,
-    bottom: props.results ? '0' : null,
-    left: props.results ? '25%' : null,
-    maxWidth: props.width ? '25em' : '50em',
-    minHeight: props.height ? '25vh' : '100vh',
-    position: props.results ? 'absolute' : null,
-    textAlign: props.align ? 'center' : 'left'
+  ({ parent }) => ({
+    backgroundColor: parent ? `${colors.ternary}` : null,
+    flex: parent ? null : '1 1 auto',
+    margin: parent ? 'auto' : '0',
+    maxWidth: parent ? '50em' : null,
+    minHeight: parent ? '100vh' : null
   })
 )
 

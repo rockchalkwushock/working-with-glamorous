@@ -13,12 +13,14 @@ class Home extends Component {
   render() {
     const { questions } = this.props.questions
     return (
-      <Container>
-        <Container align height>
+      <Container parent>
+        <Container child>
           <Title />
         </Container>
-        <SearchBar {...this.props} />
-        <Container height results>
+        <Container child>
+          <SearchBar {...this.props} />
+        </Container>
+        <Container child>
           <List questions={questions} />
         </Container>
       </Container>
