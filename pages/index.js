@@ -6,7 +6,9 @@ import PropTypes from 'prop-types'
 import { getQuestions, page } from '../lib'
 // import { SearchBar } from '../components'
 
-import SearchBar from '../recomposeSearchBar'
+import { Container, Title } from '../components'
+
+// import SearchBar from '../recomposeSearchBar'
 
 class Home extends Component {
   static propTypes = {
@@ -19,25 +21,25 @@ class Home extends Component {
       pathname: PropTypes.string.isRequired
     }).isRequired
   }
-  componentDidMount() {
-    console.log('CDM: index')
-  }
-  componentWillReceiveProps() {
-    console.log('CWRP: index')
-  }
-  componentWillUpdate() {
-    console.log('CWU: index')
-  }
-  componentDidUpdate() {
-    console.log('CDU: index')
-  }
   render() {
-    const { questions } = this.props.questions
+    // const { questions } = this.props.questions
     return (
-      <div>
-        <div>
-          <SearchBar {...this.props} />
-        </div>
+      <Container>
+        <Container align color height>
+          <Title />
+        </Container>
+      </Container>
+    )
+  }
+}
+
+export default page(
+  connect(state => ({ questions: state.questions }), { getQuestions })(Home)
+)
+
+/**
+ *
+        <SearchBar {...this.props} />
         <div>
           <ul>
             {questions.map(q =>
@@ -47,11 +49,4 @@ class Home extends Component {
             )}
           </ul>
         </div>
-      </div>
-    )
-  }
-}
-
-export default page(
-  connect(state => ({ questions: state.questions }), { getQuestions })(Home)
-)
+ */

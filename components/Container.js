@@ -14,10 +14,11 @@ const StyledContainer = glamorous.div(
     display: 'block',
     margin: 'auto'
   },
-  ({ color, height, width }) => ({
-    backgroundColor: color ? `${colors.x}` : `${colors.ternary}`,
-    minHeight: height ? '25vh' : '100vh',
-    maxWidth: width ? '25em' : '50em'
+  props => ({
+    backgroundColor: props.color ? `${colors.x}` : `${colors.ternary}`,
+    minHeight: props.height ? null : '100vh',
+    maxWidth: props.width ? '25em' : '50em',
+    textAlign: props.align ? 'center' : 'left'
   })
 )
 

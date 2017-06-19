@@ -1,146 +1,155 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-bbpa7d,
-[data-css-bbpa7d] {
+.css-yp8af0,
+[data-css-yp8af0] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <StyledContainer>
   <div
-    className="css-bbpa7d"
+    className="css-yp8af0"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-bbpa7d,
-[data-css-bbpa7d] {
+.css-yp8af0,
+[data-css-yp8af0] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <StyledContainer
   size={true}
 >
   <div
-    className="css-bbpa7d"
+    className="css-yp8af0"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.mount 3`] = `
-.css-y4xjd7,
-[data-css-y4xjd7] {
+.css-1jwowm9,
+[data-css-1jwowm9] {
   display: block;
   margin: auto;
   background-color: #042C43;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <StyledContainer
   color={true}
 >
   <div
-    className="css-y4xjd7"
+    className="css-1jwowm9"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.render 1`] = `
-.css-bbpa7d,
-[data-css-bbpa7d] {
+.css-yp8af0,
+[data-css-yp8af0] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <div
-  class="css-bbpa7d"
+  class="css-yp8af0"
 />
 `;
 
 exports[`enzyme.render 2`] = `
-.css-bbpa7d,
-[data-css-bbpa7d] {
+.css-yp8af0,
+[data-css-yp8af0] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <div
-  class="css-bbpa7d"
+  class="css-yp8af0"
 />
 `;
 
 exports[`enzyme.render 3`] = `
-.css-y4xjd7,
-[data-css-y4xjd7] {
+.css-1jwowm9,
+[data-css-1jwowm9] {
   display: block;
   margin: auto;
   background-color: #042C43;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <div
-  class="css-y4xjd7"
+  class="css-1jwowm9"
 />
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-bbpa7d,
-[data-css-bbpa7d] {
+.css-yp8af0,
+[data-css-yp8af0] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <div
-  className="css-bbpa7d"
+  className="css-yp8af0"
 />
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-bbpa7d,
-[data-css-bbpa7d] {
+.css-yp8af0,
+[data-css-yp8af0] {
   display: block;
   margin: auto;
   background-color: #0C98EB;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <div
-  className="css-bbpa7d"
+  className="css-yp8af0"
 />
 `;
 
 exports[`enzyme.shallow 3`] = `
-.css-y4xjd7,
-[data-css-y4xjd7] {
+.css-1jwowm9,
+[data-css-1jwowm9] {
   display: block;
   margin: auto;
   background-color: #042C43;
   min-height: 100vh;
   max-width: 50em;
+  text-align: left;
 }
 
 <div
-  className="css-y4xjd7"
+  className="css-1jwowm9"
 />
 `;
