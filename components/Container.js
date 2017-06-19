@@ -17,7 +17,7 @@ const StyledContainer = glamorous.div(
     justifyContent: 'center'
   },
   ({ parent }) => ({
-    backgroundColor: parent ? `${colors.ternary}` : null,
+    backgroundColor: parent ? `${colors.secondary}` : null,
     flex: parent ? null : '1 1 auto',
     margin: parent ? 'auto' : '0',
     maxWidth: parent ? '50em' : null,

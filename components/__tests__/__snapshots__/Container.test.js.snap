@@ -35,181 +35,37 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
+.css-1chxodp,
+[data-css-1chxodp] {
+  -webkit-flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-direction: column;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
+  min-height: 100vh;
+  max-width: 50em;
+  margin: auto;
+  background-color: #0266A2;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 <StyledContainer
-  color={true}
+  parent={true}
 >
   <div
-    className="css-dye5wl"
-  />
-</StyledContainer>
-`;
-
-exports[`enzyme.mount 3`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<StyledContainer
-  results={true}
->
-  <div
-    className="css-dye5wl"
-  />
-</StyledContainer>
-`;
-
-exports[`enzyme.mount 4`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<StyledContainer
-  width={true}
->
-  <div
-    className="css-dye5wl"
-  />
-</StyledContainer>
-`;
-
-exports[`enzyme.mount 5`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<StyledContainer
-  height={true}
->
-  <div
-    className="css-dye5wl"
-  />
-</StyledContainer>
-`;
-
-exports[`enzyme.mount 6`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<StyledContainer
-  align={true}
->
-  <div
-    className="css-dye5wl"
+    className="css-1chxodp"
   />
 </StyledContainer>
 `;
@@ -247,162 +103,34 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.render 2`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
+.css-1chxodp,
+[data-css-1chxodp] {
+  -webkit-flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-direction: column;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
+  min-height: 100vh;
+  max-width: 50em;
+  margin: auto;
+  background-color: #0266A2;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 <div
-  class="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.render 3`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  class="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.render 4`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  class="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.render 5`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  class="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.render 6`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  class="css-dye5wl"
+  class="css-1chxodp"
 />
 `;
 
@@ -439,161 +167,33 @@ exports[`enzyme.shallow 1`] = `
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
+.css-1chxodp,
+[data-css-1chxodp] {
+  -webkit-flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-direction: column;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
+  min-height: 100vh;
+  max-width: 50em;
+  margin: auto;
+  background-color: #0266A2;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 <div
-  className="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.shallow 3`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  className="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.shallow 4`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  className="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.shallow 5`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  className="css-dye5wl"
-/>
-`;
-
-exports[`enzyme.shallow 6`] = `
-.css-dye5wl,
-[data-css-dye5wl] {
-  -webkit-justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  margin: 0px;
-  flex: 1 1 auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-<div
-  className="css-dye5wl"
+  className="css-1chxodp"
 />
 `;
