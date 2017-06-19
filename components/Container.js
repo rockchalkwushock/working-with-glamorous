@@ -1,5 +1,7 @@
 import glamorous from 'glamorous'
 
+import { colors } from '../lib/styles/global'
+
 /**
  * @summary
  * This will be the base container used in the application.
@@ -9,16 +11,13 @@ import glamorous from 'glamorous'
  */
 const StyledContainer = glamorous.div(
   {
-    alignItems: 'center',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
+    display: 'block',
     margin: 'auto'
   },
-  ({ color, size }) => ({
-    backgroundColor: color ? 'red' : 'black',
-    minHeight: size ? '100vh' : null,
-    maxWidth: size ? '50em' : null
+  ({ color, height, width }) => ({
+    backgroundColor: color ? `${colors.x}` : `${colors.ternary}`,
+    minHeight: height ? '25vh' : '100vh',
+    maxWidth: width ? '25em' : '50em'
   })
 )
 

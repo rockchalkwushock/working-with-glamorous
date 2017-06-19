@@ -1,287 +1,146 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-15kw3th,
-[data-css-15kw3th] {
-  -ms-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  background-color: black;
+.css-bbpa7d,
+[data-css-bbpa7d] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #0C98EB;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <StyledContainer>
   <div
-    className="css-15kw3th"
+    className="css-bbpa7d"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.mount 2`] = `
-.css-1rsl166,
-[data-css-1rsl166] {
-  -webkit-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-direction: column;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  max-width: 50em;
-  min-height: 100vh;
-  background-color: black;
+.css-bbpa7d,
+[data-css-bbpa7d] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #0C98EB;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <StyledContainer
   size={true}
 >
   <div
-    className="css-1rsl166"
+    className="css-bbpa7d"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.mount 3`] = `
-.css-vk91ra,
-[data-css-vk91ra] {
-  -ms-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  background-color: red;
+.css-y4xjd7,
+[data-css-y4xjd7] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #042C43;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <StyledContainer
   color={true}
 >
   <div
-    className="css-vk91ra"
+    className="css-y4xjd7"
   />
 </StyledContainer>
 `;
 
 exports[`enzyme.render 1`] = `
-.css-15kw3th,
-[data-css-15kw3th] {
-  -ms-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  background-color: black;
+.css-bbpa7d,
+[data-css-bbpa7d] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #0C98EB;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <div
-  class="css-15kw3th"
+  class="css-bbpa7d"
 />
 `;
 
 exports[`enzyme.render 2`] = `
-.css-1rsl166,
-[data-css-1rsl166] {
-  -webkit-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-direction: column;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  max-width: 50em;
-  min-height: 100vh;
-  background-color: black;
+.css-bbpa7d,
+[data-css-bbpa7d] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #0C98EB;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <div
-  class="css-1rsl166"
+  class="css-bbpa7d"
 />
 `;
 
 exports[`enzyme.render 3`] = `
-.css-vk91ra,
-[data-css-vk91ra] {
-  -ms-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  background-color: red;
+.css-y4xjd7,
+[data-css-y4xjd7] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #042C43;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <div
-  class="css-vk91ra"
+  class="css-y4xjd7"
 />
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-15kw3th,
-[data-css-15kw3th] {
-  -ms-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  background-color: black;
+.css-bbpa7d,
+[data-css-bbpa7d] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #0C98EB;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <div
-  className="css-15kw3th"
+  className="css-bbpa7d"
 />
 `;
 
 exports[`enzyme.shallow 2`] = `
-.css-1rsl166,
-[data-css-1rsl166] {
-  -webkit-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-direction: column;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  max-width: 50em;
-  min-height: 100vh;
-  background-color: black;
+.css-bbpa7d,
+[data-css-bbpa7d] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #0C98EB;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <div
-  className="css-1rsl166"
+  className="css-bbpa7d"
 />
 `;
 
 exports[`enzyme.shallow 3`] = `
-.css-vk91ra,
-[data-css-vk91ra] {
-  -ms-flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-align: center;
-  -webkit-justify-content: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  background-color: red;
+.css-y4xjd7,
+[data-css-y4xjd7] {
+  display: block;
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  background-color: #042C43;
+  min-height: 100vh;
+  max-width: 50em;
 }
 
 <div
-  className="css-vk91ra"
+  className="css-y4xjd7"
 />
 `;
