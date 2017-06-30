@@ -1,57 +1,42 @@
 import { Component } from 'react'
-
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
 import { getQuestions, page } from '../lib'
-// import { SearchBar } from '../components'
 
-import SearchBar from '../recomposeSearchBar'
+import { Container, List, SearchBar, Title } from '../components'
 
 class Home extends Component {
   static propTypes = {
-    getQuestions: PropTypes.func.isRequired,
-    initialState: PropTypes.shape({
-      form: PropTypes.object,
-      questions: PropTypes.object
-    }).isRequired,
-    url: PropTypes.shape({
-      pathname: PropTypes.string.isRequired
-    }).isRequired
-  }
-  componentDidMount() {
-    console.log('CDM: index')
-  }
-  componentWillReceiveProps() {
-    console.log('CWRP: index')
-  }
-  componentWillUpdate() {
-    console.log('CWU: index')
-  }
-  componentDidUpdate() {
-    console.log('CDU: index')
+    getQuestions: PropTypes.func.isRequired
   }
   render() {
     const { questions } = this.props.questions
     return (
-      <div>
-        <div>
+      <Container parent>
+        <Container child>
+          <Title />
+        </Container>
+        <Container child>
           <SearchBar {...this.props} />
-        </div>
-        <div>
-          <ul>
-            {questions.map(q =>
-              <li key={Math.random()}>
-                <a href={q.link}><h3>{q.title}</h3></a>
-              </li>
-            )}
-          </ul>
-        </div>
-      </div>
+        </Container>
+        <Container child>
+          <List questions={questions} />
+        </Container>
+      </Container>
     )
   }
 }
 
+/**
+ * NOTE:
+ * Wrap page => connect => Component because Provider is coming from page.
+ * page is not built to be used as a decorator or I could:
+ *
+ *    @page()
+ *    @connect(state => ({ questions: state.questions }), { getQuestions })
+ *    export default Home extends Component { ... }
+ */
 export default page(
   connect(state => ({ questions: state.questions }), { getQuestions })(Home)
 )

@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-17ppabt,
+[data-css-17ppabt] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  background: #0C98EB;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  float: right;
+}
+
+<StyledButton>
+  <button
+    className="css-17ppabt"
+  />
+</StyledButton>
+`;
+
+exports[`enzyme.mount 2`] = `
+.css-hah8i5,
+[data-css-hah8i5] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  float: right;
+  background: #0C98EB;
+  transition: all 0.3s ease-in-out;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+<StyledButton
+  open={true}
+>
+  <button
+    className="css-hah8i5"
+  />
+</StyledButton>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-17ppabt,
+[data-css-17ppabt] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  background: #0C98EB;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  float: right;
+}
+
+<button
+  class="css-17ppabt"
+/>
+`;
+
+exports[`enzyme.render 2`] = `
+.css-hah8i5,
+[data-css-hah8i5] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  float: right;
+  background: #0C98EB;
+  transition: all 0.3s ease-in-out;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+<button
+  class="css-hah8i5"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-17ppabt,
+[data-css-17ppabt] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  background: #0C98EB;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  float: right;
+}
+
+<button
+  className="css-17ppabt"
+/>
+`;
+
+exports[`enzyme.shallow 2`] = `
+.css-hah8i5,
+[data-css-hah8i5] {
+  -webkit-transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 0px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  float: right;
+  background: #0C98EB;
+  transition: all 0.3s ease-in-out;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+<button
+  className="css-hah8i5"
+/>
+`;

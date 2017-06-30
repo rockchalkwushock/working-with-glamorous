@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1gjdfoc,
+[data-css-1gjdfoc] {
+  -webkit-transform: translate(0, 60px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Questrial", sans-serif;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FEBA00;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 0;
+  transform: translate(0, 60px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<StyledInput>
+  <input
+    className="css-1gjdfoc"
+  />
+</StyledInput>
+`;
+
+exports[`enzyme.mount 2`] = `
+.css-6z81hz,
+[data-css-6z81hz] {
+  -webkit-transform: translate(0, 10px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Questrial", sans-serif;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FEBA00;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: translate(0, 10px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<StyledInput
+  open={true}
+>
+  <input
+    className="css-6z81hz"
+  />
+</StyledInput>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1gjdfoc,
+[data-css-1gjdfoc] {
+  -webkit-transform: translate(0, 60px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Questrial", sans-serif;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FEBA00;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 0;
+  transform: translate(0, 60px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  class="css-1gjdfoc"
+/>
+`;
+
+exports[`enzyme.render 2`] = `
+.css-6z81hz,
+[data-css-6z81hz] {
+  -webkit-transform: translate(0, 10px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Questrial", sans-serif;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FEBA00;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: translate(0, 10px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  class="css-6z81hz"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-1gjdfoc,
+[data-css-1gjdfoc] {
+  -webkit-transform: translate(0, 60px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Questrial", sans-serif;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FEBA00;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 0;
+  transform: translate(0, 60px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  className="css-1gjdfoc"
+/>
+`;
+
+exports[`enzyme.shallow 2`] = `
+.css-6z81hz,
+[data-css-6z81hz] {
+  -webkit-transform: translate(0, 10px);
+  -moz-box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  -webkit-transition-delay: 0.3s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Questrial", sans-serif;
+  width: 100%;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FEBA00;
+  transition: all 0.3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: translate(0, 10px);
+  display: inline-block;
+  height: 50px;
+  padding: 0px 70px 0px 20px;
+  font-size: 16px;
+}
+
+<input
+  className="css-6z81hz"
+/>
+`;

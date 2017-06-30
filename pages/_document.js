@@ -27,6 +27,7 @@ export default class MyDocument extends Document {
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
             async
           />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico|Questrial" async />
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
         </Head>
         <body>

@@ -1,5 +1,7 @@
 import glamorous from 'glamorous'
 
+import { colors } from '../../lib/styles/global'
+
 const StyledClosingSpan = glamorous.span(
   {
     position: 'absolute',
@@ -15,7 +17,7 @@ const StyledClosingSpan = glamorous.span(
       top: '0px',
       position: 'absolute',
       content: '""',
-      backgroundColor: '#FFF',
+      backgroundColor: `${colors.ternary}`,
       borderRadius: '2px'
     },
     '::after': {
@@ -25,7 +27,7 @@ const StyledClosingSpan = glamorous.span(
       top: '10px',
       position: 'absolute',
       content: '""',
-      backgroundColor: '#FFF',
+      backgroundColor: `${colors.ternary}`,
       borderRadius: '2px'
     }
   },

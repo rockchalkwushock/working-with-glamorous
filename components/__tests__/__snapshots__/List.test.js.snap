@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-8z6uph,
+[data-css-8z6uph] {
+  line-height: 1.5;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 2em;
+}
+
+.css-1xzrot3,
+[data-css-1xzrot3] {
+  color: green;
+}
+
+.css-v5siu3,
+[data-css-v5siu3] {
+  color: orange;
+}
+
+.css-v5siu3:visited,
+[data-css-v5siu3]:visited {
+  color: orange;
+}
+
+.css-v5siu3:hover,
+[data-css-v5siu3]:hover {
+  color: green;
+}
+
+<List
+  questions={
+    Array [
+      Object {
+        "link": "a",
+        "title": "a",
+      },
+      Object {
+        "link": "b",
+        "title": "b",
+      },
+      Object {
+        "link": "c",
+        "title": "c",
+      },
+    ]
+  }
+>
+  <StyledList>
+    <ul
+      className="css-8z6uph"
+    >
+      <Result
+        link="a"
+        title="a"
+      >
+        <StyledResult>
+          <li
+            className="css-1xzrot3"
+          >
+            <StyledLink
+              href="a"
+            >
+              <a
+                className="css-v5siu3"
+                href="a"
+              >
+                a
+              </a>
+            </StyledLink>
+          </li>
+        </StyledResult>
+      </Result>
+      <Result
+        link="b"
+        title="b"
+      >
+        <StyledResult>
+          <li
+            className="css-1xzrot3"
+          >
+            <StyledLink
+              href="b"
+            >
+              <a
+                className="css-v5siu3"
+                href="b"
+              >
+                b
+              </a>
+            </StyledLink>
+          </li>
+        </StyledResult>
+      </Result>
+      <Result
+        link="c"
+        title="c"
+      >
+        <StyledResult>
+          <li
+            className="css-1xzrot3"
+          >
+            <StyledLink
+              href="c"
+            >
+              <a
+                className="css-v5siu3"
+                href="c"
+              >
+                c
+              </a>
+            </StyledLink>
+          </li>
+        </StyledResult>
+      </Result>
+    </ul>
+  </StyledList>
+</List>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-8z6uph,
+[data-css-8z6uph] {
+  line-height: 1.5;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 2em;
+}
+
+.css-1xzrot3,
+[data-css-1xzrot3] {
+  color: green;
+}
+
+.css-v5siu3,
+[data-css-v5siu3] {
+  color: orange;
+}
+
+.css-v5siu3:visited,
+[data-css-v5siu3]:visited {
+  color: orange;
+}
+
+.css-v5siu3:hover,
+[data-css-v5siu3]:hover {
+  color: green;
+}
+
+<ul
+  class="css-8z6uph"
+>
+  <li
+    class="css-1xzrot3"
+  >
+    <a
+      class="css-v5siu3"
+      href="a"
+    >
+      a
+    </a>
+  </li>
+  <li
+    class="css-1xzrot3"
+  >
+    <a
+      class="css-v5siu3"
+      href="b"
+    >
+      b
+    </a>
+  </li>
+  <li
+    class="css-1xzrot3"
+  >
+    <a
+      class="css-v5siu3"
+      href="c"
+    >
+      c
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`enzyme.shallow 1`] = `
+<StyledList>
+  <Result
+    link="a"
+    title="a"
+  />
+  <Result
+    link="b"
+    title="b"
+  />
+  <Result
+    link="c"
+    title="c"
+  />
+</StyledList>
+`;

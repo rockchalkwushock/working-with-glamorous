@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1ypye1o,
+[data-css-1ypye1o] {
+  -webkit-transition: all 0.3s ease-in-out;
+  display: block;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+  width: 70px;
+  border-radius: 6px;
+  background-color: rgba(255,255,255,0);
+  transition: all 0.3s ease-in-out;
+}
+
+<StyledInputHolder>
+  <div
+    className="css-1ypye1o"
+  />
+</StyledInputHolder>
+`;
+
+exports[`enzyme.mount 2`] = `
+.css-tbzk2n,
+[data-css-tbzk2n] {
+  -webkit-transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  display: block;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+  width: 450px;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+}
+
+<StyledInputHolder
+  open={true}
+>
+  <div
+    className="css-tbzk2n"
+  />
+</StyledInputHolder>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1ypye1o,
+[data-css-1ypye1o] {
+  -webkit-transition: all 0.3s ease-in-out;
+  display: block;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+  width: 70px;
+  border-radius: 6px;
+  background-color: rgba(255,255,255,0);
+  transition: all 0.3s ease-in-out;
+}
+
+<div
+  class="css-1ypye1o"
+/>
+`;
+
+exports[`enzyme.render 2`] = `
+.css-tbzk2n,
+[data-css-tbzk2n] {
+  -webkit-transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  display: block;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+  width: 450px;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+}
+
+<div
+  class="css-tbzk2n"
+/>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-1ypye1o,
+[data-css-1ypye1o] {
+  -webkit-transition: all 0.3s ease-in-out;
+  display: block;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+  width: 70px;
+  border-radius: 6px;
+  background-color: rgba(255,255,255,0);
+  transition: all 0.3s ease-in-out;
+}
+
+<div
+  className="css-1ypye1o"
+/>
+`;
+
+exports[`enzyme.shallow 2`] = `
+.css-tbzk2n,
+[data-css-tbzk2n] {
+  -webkit-transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+  display: block;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+  width: 450px;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+}
+
+<div
+  className="css-tbzk2n"
+/>
+`;
